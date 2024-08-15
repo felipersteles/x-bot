@@ -1,14 +1,17 @@
 import express, { Express } from "express";
 import { router } from "./routes";
+import { Oracle } from "../app/oracle";
 
 require('dotenv').config()
 
 export class Server {
 
     private readonly app: Express;
+    private readonly oracle: Oracle
 
     constructor() {
         this.app = express()
+        this.oracle = new Oracle()
     }
 
     start() {

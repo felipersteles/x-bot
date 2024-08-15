@@ -1,29 +1,59 @@
-import { TwitterApi, TwitterApiv2 } from 'twitter-api-v2';
 
-export class TwitterService {
+import iChing from '../../data/iching.json';
+import { formatDate } from '../utils';
 
-    private readonly client: TwitterApiv2
+export class Oracle {
+
+    private trigramSequences: { [key: string]: number[] };
 
     constructor() {
-
-        const twitterAuth = new TwitterApi({
-            appKey: `${process.env.API_KEY}`,
-            appSecret: `${process.env.API_SECRET}`,
-            accessToken: `${process.env.ACCESS_TOKEN}`,
-            accessSecret: `${process.env.ACCESS_SECRET}`,
-        });
-
-        this.client = twitterAuth.v2;
+        this.trigramSequences = {
+            earlierHeaven: [1, 6, 4, 5, 2, 3, 7, 8],
+            laterHeaven: [7, 2, 8, 1, 4, 5, 3, 6]
+        };
     }
 
-    async tweet(message: string) {
-        
-        if(!message) throw new Error(`Missing param: message.`);
+    ask(message: string) {
+        // const trigrams = this.extractTrigrams(message);
+        // const sequence = this.findMatchingSequence(trigrams);
 
-        const res = await this.client.tweet({
-            text: message,
-        });
+        // if (sequence) {
+        //     // const card = iChing[sequence - 1];
+        //     return card.meaning;
+        // } else {
+        //     return "No matching trigram sequence found.";
+        // }
+    }
 
-        return res;
+    getTrigram(code: number) {
+        const trigram = iChing.trigrams[code];
+        return trigram;
+    }
+
+    getReveal() {
+
+        const hexagrams = iChing.hexagrams
+        const randomIndex = Math.floor(Math.random() * hexagrams.length);
+
+        const dayReveal = hexagrams[randomIndex];
+        const topTrigram = this.getTrigram(dayReveal.topTrigram);
+        const bottomTrigram = this.getTrigram(dayReveal.bottomTrigram);
+
+        let message = `${dayReveal.character} ${topTrigram.images[0] || ""}, ${bottomTrigram.images[0] || ""}.\n${dayReveal.chineseName} `;
+
+        if (dayReveal.names.length > 1) {
+            const header = dayReveal.names.shift();
+            message += `${header} - ` + dayReveal.names.join(" ");
+        } else {
+            message += dayReveal.names.join(" ");
+        }
+
+        if (topTrigram) {
+            message += `\n\nTrigrama superior${topTrigram.chineseName}: ${topTrigram.character} ${topTrigram.names.join(" - ")}.\n`;
+        }
+        if (bottomTrigram)
+            message += `Trigrama inferior${bottomTrigram.chineseName}: ${bottomTrigram.character} ${bottomTrigram.names.join(" - ")}.`;
+
+        return message;
     }
 }

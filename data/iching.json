@@ -1,0 +1,1596 @@
+{
+    "trigrams": [
+        {
+            "number": 1,
+            "names": [
+                "Força",
+                "O criador"
+            ],
+            "chineseName": "乾",
+            "pinyinName": "qián",
+            "character": "☰",
+            "attribute": "forte",
+            "images": [
+                "céu"
+            ],
+            "chineseImage": "天",
+            "pinyinImage": "tiān",
+            "familyRelationship": "pai",
+            "binary": "111",
+            "lines": [
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 2,
+            "names": [
+                "Campo",
+                "Adaptabilidade"
+            ],
+            "chineseName": "坤",
+            "pinyinName": "kūn",
+            "character": "☷",
+            "attribute": "devoto, produzindo",
+            "images": [
+                "terra"
+            ],
+            "chineseImage": "地",
+            "pinyinImage": "dì",
+            "familyRelationship": "mãe",
+            "binary": "000",
+            "lines": [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 3,
+            "names": [
+                "Impulsão",
+                "mudança de rota"
+            ],
+            "chineseName": "震",
+            "pinyinName": "zhèn",
+            "character": "☳",
+            "attribute": "incitando movimento",
+            "images": [
+                "trovão"
+            ],
+            "chineseImage": "雷",
+            "pinyinImage": "léi",
+            "familyRelationship": "primeiro filho",
+            "binary": "001",
+            "lines": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 4,
+            "names": [
+                "Profundidade",
+                "resiliência"
+            ],
+            "chineseName": "坎",
+            "pinyinName": "kǎn",
+            "character": "☵",
+            "attribute": "perigoso",
+            "images": [
+                "água"
+            ],
+            "chineseImage": "水",
+            "pinyinImage": "shuǐ",
+            "familyRelationship": "segundo filho",
+            "binary": "010",
+            "lines": [
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 5,
+            "names": [
+                "Limite",
+                "Mantendo Parado"
+            ],
+            "chineseName": "艮",
+            "pinyinName": "gèn",
+            "character": "☶",
+            "attribute": "descansando",
+            "images": [
+                "motanha"
+            ],
+            "chineseImage": "山",
+            "pinyinImage": "shān",
+            "familyRelationship": "terceiro filho",
+            "binary": "100",
+            "lines": [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 6,
+            "names": [
+                "Chão",
+                "O gentil"
+            ],
+            "chineseName": "巽",
+            "pinyinName": "xùn",
+            "character": "☴",
+            "attribute": "penetração",
+            "images": [
+                "vento",
+                "madeira"
+            ],
+            "chineseImage": "風",
+            "pinyinImage": "fēng",
+            "familyRelationship": "primeira filha",
+            "binary": "110",
+            "lines": [
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 7,
+            "names": [
+                "Radiação",
+                "O Apego"
+            ],
+            "chineseName": "離",
+            "pinyinName": "lí",
+            "character": "☲",
+            "attribute": "que dá luz",
+            "images": [
+                "fogo"
+            ],
+            "chineseImage": "火",
+            "pinyinImage": "huǒ",
+            "familyRelationship": "segunda filha",
+            "binary": "101",
+            "lines": [
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 8,
+            "names": [
+                "Abertura",
+                "O Alegre"
+            ],
+            "chineseName": "兌",
+            "pinyinName": "duì",
+            "character": "☱",
+            "attribute": "alegria",
+            "images": [
+                "pântano",
+                "lago"
+            ],
+            "chineseImage": "澤",
+            "pinyinImage": "zé",
+            "familyRelationship": "terceira filha",
+            "binary": "011",
+            "lines": [
+                1,
+                1,
+                0
+            ]
+        }
+    ],
+    "hexagrams": [
+        {
+            "number": 1,
+            "names": [
+                "O Princípio Criador. Sublime sucesso! O Criador representa tudo o que é grande, primordial, favorável, exato e firme."
+            ],
+            "chineseName": "乾",
+            "pinyinName": "qián",
+            "character": "䷀",
+            "topTrigram": 1,
+            "bottomTrigram": 1,
+            "binary": "111111",
+            "lines": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 2,
+            "names": [
+                "O Princípio Receptivo. Sucesso sublime! Quando o homem nobre tem um objetivo e toma a iniciativa, ele a princípio perde o rumo. Porém, se ele obedecer, encontrará orientação. É favorável encontrar amigos no oeste e no sul, mas amigos no leste e no norte serão perdidos."
+            ],
+            "chineseName": "坤",
+            "pinyinName": "kūn",
+            "character": "䷁",
+            "topTrigram": 2,
+            "bottomTrigram": 2,
+            "binary": "000000",
+            "lines": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 3,
+            "names": [
+                "Sacudir.",
+                "A perseverança na direção correta traz recompensas.",
+                "Não procure novos objetivos.",
+                "É vantajoso consolidar a posição atual."
+            ],
+            "chineseName": "屯",
+            "pinyinName": "zhūn",
+            "character": "䷂",
+            "topTrigram": 4,
+            "bottomTrigram": 3,
+            "binary": "010001",
+            "lines": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 4,
+            "names": [
+                "Desfiladeiro.",
+                "A inexperiência juvenil. Boa sorte!",
+                "Não procuro jovens imaturos, mas se um deles vem a mim, leio e explico os presságios.",
+                "Começo por ensiná-lo tal como ele é, repetindo uma ou duas vezes.",
+                "Se ele se aborrece, eu paro."
+            ],
+            "chineseName": "蒙",
+            "pinyinName": "méng",
+            "character": "䷃",
+            "topTrigram": 5,
+            "bottomTrigram": 4,
+            "binary": "100010",
+            "lines": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 5,
+            "names": [
+                "Vinculado",
+                "A Espera. Se você é sincero, tem a luz e o êxito.",
+                "A perseverança traz boa fortuna.",
+                "É favorável atravessar a grande água."
+            ],
+            "chineseName": "需",
+            "pinyinName": "xū",
+            "character": "䷄",
+            "topTrigram": 4,
+            "bottomTrigram": 1,
+            "binary": "010111",
+            "lines": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 6,
+            "names": [
+                "A Disputa.",
+                "Com cautela os assuntos podem prosperar num meio termo.",
+                "Prosseguir no conflito até seu amargo fim será desastroso.",
+                "É vantajoso visitar o grande homem.",
+                "Não é favorável cruzar o grande rio."
+            ],
+            "chineseName": "訟",
+            "pinyinName": "sòng",
+            "character": "䷅",
+            "topTrigram": 1,
+            "bottomTrigram": 4,
+            "binary": "111010",
+            "lines": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 7,
+            "names": [
+                "O Exército necessita de um homem forte e com autoridade. Persistir na direção correta traz boa sorte e ausência de erro."
+            ],
+            "chineseName": "師",
+            "pinyinName": "shī",
+            "character": "䷆",
+            "topTrigram": 2,
+            "bottomTrigram": 4,
+            "binary": "000010",
+            "lines": [
+                0,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 8,
+            "names": [
+                "União. Boa sorte!",
+                "Uma nova consulta ao oráculo fornecerá um presságio de grande valor:",
+                "se sua virtude é grande, constante e firme.",
+                "Se assim for, não haverá erro",
+                "Aqueles que não estão felizes se reúnem.",
+                "Os retardatários encontrarão infortúnio porque suas reservas se esgotam."
+            ],
+            "chineseName": "比",
+            "pinyinName": "bǐ",
+            "character": "䷇",
+            "topTrigram": 4,
+            "bottomTrigram": 2,
+            "binary": "010000",
+            "lines": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 9,
+            "names": [
+                "O pequeno acúmulo",
+                "Densas nuvens que não dão chuva se aproximam do oeste."
+            ],
+            "chineseName": "小畜",
+            "pinyinName": "xiǎo chù",
+            "character": "䷈",
+            "topTrigram": 6,
+            "bottomTrigram": 1,
+            "binary": "110111",
+            "lines": [
+                1,
+                1,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 10,
+            "names": [
+                "Caminhar",
+                "Pisar sobre a cauda do tigre.",
+                "Ele não morde o homem."
+            ],
+            "chineseName": "履",
+            "pinyinName": "lǚ",
+            "character": "䷉",
+            "topTrigram": 1,
+            "bottomTrigram": 8,
+            "binary": "111011",
+            "lines": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 11,
+            "names": [
+                "Prosperidade",
+                "Paz",
+                "O pequeno parte, o grande se aproxima."
+            ],
+            "chineseName": "泰",
+            "pinyinName": "tài",
+            "character": "䷊",
+            "topTrigram": 2,
+            "bottomTrigram": 1,
+            "binary": "000111",
+            "lines": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 12,
+            "names": [
+                "Obstáculo",
+                "O grande parte, o pequeno se aproxima."
+            ],
+            "chineseName": "否",
+            "pinyinName": "pǐ",
+            "character": "䷋",
+            "topTrigram": 1,
+            "bottomTrigram": 2,
+            "binary": "111000",
+            "lines": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 13,
+            "names": [
+                "Comunidade",
+                "É vantajoso atravessar as grandes águas.",
+                "É favorável a persistência do homem nobre."
+            ],
+            "chineseName": "同人",
+            "pinyinName": "tóng rén",
+            "character": "䷌",
+            "topTrigram": 1,
+            "bottomTrigram": 7,
+            "binary": "111101",
+            "lines": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 14,
+            "names": [
+                "Grande Conquista",
+                "Supremo sucesso"
+            ],
+            "chineseName": "大有",
+            "pinyinName": "dà yǒu",
+            "character": "䷍",
+            "topTrigram": 7,
+            "bottomTrigram": 1,
+            "binary": "101111",
+            "lines": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 15,
+            "names": [
+                "Modéstia",
+                "A Modéstia traz sucesso.",
+                "O homem nobre leva seus empreendimentos até o fim."
+            ],
+            "chineseName": "謙",
+            "pinyinName": "qiān",
+            "character": "䷎",
+            "topTrigram": 2,
+            "bottomTrigram": 5,
+            "binary": "000100",
+            "lines": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 16,
+            "names": [
+                "Entusiasmo",
+                "É favorável nomear auxiliares e pôr os exércitos em marcha."
+            ],
+            "chineseName": "豫",
+            "pinyinName": "yù",
+            "character": "䷏",
+            "topTrigram": 3,
+            "bottomTrigram": 2,
+            "binary": "001000",
+            "lines": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 17,
+            "names": [
+                "Seguir",
+                "A persistência correta traz recompensas. Nenhum erro."
+            ],
+            "chineseName": "隨",
+            "pinyinName": "suí",
+            "character": "䷐",
+            "topTrigram": 8,
+            "bottomTrigram": 3,
+            "binary": "011001",
+            "lines": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 18,
+            "names": [
+                "Correção",
+                "Trabalhar o que se corrompeu.",
+                "Três dias antes do começo, três dias depois do começo."
+            ],
+            "chineseName": "蠱",
+            "pinyinName": "gǔ",
+            "character": "䷑",
+            "topTrigram": 5,
+            "bottomTrigram": 6,
+            "binary": "100110",
+            "lines": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 19,
+            "names": [
+                "Aproximação",
+                "A persistência correta traz recompensas.",
+                "Ao chegar o oitavo mês, haverá prejuízos."
+            ],
+            "chineseName": "臨",
+            "pinyinName": "lín",
+            "character": "䷒",
+            "topTrigram": 2,
+            "bottomTrigram": 8,
+            "binary": "000011",
+            "lines": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 20,
+            "names": [
+                "Contemplação",
+                "As mãos foram lavadas, mas a oferenda ainda não foi feita.",
+                "A sinceridade inspira respeito."
+            ],
+            "chineseName": "觀",
+            "pinyinName": "guān",
+            "character": "䷓",
+            "topTrigram": 6,
+            "bottomTrigram": 2,
+            "binary": "110000",
+            "lines": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 21,
+            "names": [
+                "Morder",
+                "A época é favorável para exercer a justiça."
+            ],
+            "chineseName": "噬嗑",
+            "pinyinName": "shì kè",
+            "character": "䷔",
+            "topTrigram": 7,
+            "bottomTrigram": 3,
+            "binary": "101001",
+            "lines": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 22,
+            "names": [
+                "Elegância",
+                "Haverá uma pequena vantagem em seguir adiante."
+            ],
+            "chineseName": "賁",
+            "pinyinName": "bì",
+            "character": "䷕",
+            "topTrigram": 5,
+            "bottomTrigram": 7,
+            "binary": "100101",
+            "lines": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 23,
+            "names": [
+                "Desintegração",
+                "Não é favorável seguir em direção alguma, seja qual for."
+            ],
+            "chineseName": "剝",
+            "pinyinName": "bō",
+            "character": "䷖",
+            "topTrigram": 5,
+            "bottomTrigram": 2,
+            "binary": "100000",
+            "lines": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 24,
+            "names": [
+                "Retorno",
+                "Entra e sai sem embaraços.",
+                "Os amigos chegam e não há erro algum.",
+                "Eles retornam ao lugar de onde vieram e levam ao todo sete dias.",
+                "É favorável ter um objetivo a seguir."
+            ],
+            "chineseName": "復",
+            "pinyinName": "fù",
+            "character": "䷗",
+            "topTrigram": 2,
+            "bottomTrigram": 3,
+            "binary": "000001",
+            "lines": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 25,
+            "names": [
+                "Integridade",
+                "A perseverança é favorável.",
+                "Se o homem não é correto, encontrará o castigo e não lhe será favorável mover-se em qualquer direção."
+            ],
+            "chineseName": "無妄",
+            "pinyinName": "wú wàng",
+            "character": "䷘",
+            "topTrigram": 1,
+            "bottomTrigram": 3,
+            "binary": "111001",
+            "lines": [
+                1,
+                0,
+                0,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 26,
+            "names": [
+                "O Grande Acúmulo",
+                "Não comer em casa traz boa sorte.",
+                "A época é favorável para atravessar a grande água."
+            ],
+            "chineseName": "大畜",
+            "pinyinName": "dà chù",
+            "character": "䷙",
+            "topTrigram": 5,
+            "bottomTrigram": 1,
+            "binary": "100111",
+            "lines": [
+                1,
+                1,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 27,
+            "names": [
+                "Nutrição",
+                "Observe as pessoas alimentando outras e repare como elas se alimentam a si próprias."
+            ],
+            "chineseName": "頤",
+            "pinyinName": "yí",
+            "character": "䷚",
+            "topTrigram": 5,
+            "bottomTrigram": 3,
+            "binary": "100001",
+            "lines": [
+                1,
+                0,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 28,
+            "names": [
+                "Excesso. A viga está cedendo!",
+                "É favorável ter um objetivo."
+            ],
+            "chineseName": "大過",
+            "pinyinName": "dà guò",
+            "character": "䷛",
+            "topTrigram": 8,
+            "bottomTrigram": 6,
+            "binary": "011110",
+            "lines": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 29,
+            "names": [
+                "O Abismo",
+                "Se houver sinceridade, o coração se manterá em paz.",
+                "Atividades assim conduzidas terão alto valor."
+            ],
+            "chineseName": "坎",
+            "pinyinName": "kǎn",
+            "character": "䷜",
+            "topTrigram": 4,
+            "bottomTrigram": 4,
+            "binary": "010010",
+            "lines": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 30,
+            "names": [
+                "Luminoso",
+                "Cuidar da vaca traz boa sorte."
+            ],
+            "chineseName": "離",
+            "pinyinName": "lí",
+            "character": "䷝",
+            "topTrigram": 7,
+            "bottomTrigram": 7,
+            "binary": "101101",
+            "lines": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 31,
+            "names": [
+                "Atração",
+                "A persistência correta traz recompensas.",
+                "Tomar uma esposa resultará em boa sorte."
+            ],
+            "chineseName": "咸",
+            "pinyinName": "xián",
+            "character": "䷞",
+            "topTrigram": 8,
+            "bottomTrigram": 5,
+            "binary": "011100",
+            "lines": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 32,
+            "names": [
+                "Perseverança",
+                "A perseverança correta traz boa sorte.",
+                "É favorável ter um objetivo."
+            ],
+            "chineseName": "恆",
+            "pinyinName": "héng",
+            "character": "䷟",
+            "topTrigram": 3,
+            "bottomTrigram": 6,
+            "binary": "001110",
+            "lines": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 33,
+            "names": [
+                "Retirada",
+                "É favorável a perseverança em pequenas coisas."
+            ],
+            "chineseName": "遯",
+            "pinyinName": "dùn",
+            "character": "䷠",
+            "topTrigram": 1,
+            "bottomTrigram": 5,
+            "binary": "111100",
+            "lines": [
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 34,
+            "names": [
+                "A Grande Força",
+                "A perseverança no caminho correto é favorável"
+            ],
+            "chineseName": "大壯",
+            "pinyinName": "dà zhuàng",
+            "character": "䷡",
+            "topTrigram": 3,
+            "bottomTrigram": 1,
+            "binary": "001111",
+            "lines": [
+                1,
+                1,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 35,
+            "names": [
+                "Progresso",
+                "O príncipe é presenteado com grande número de cavalos.",
+                "Num só dia é recebido três vezes em audiência."
+            ],
+            "chineseName": "晉",
+            "pinyinName": "jìn",
+            "character": "䷢",
+            "topTrigram": 7,
+            "bottomTrigram": 2,
+            "binary": "101000",
+            "lines": [
+                0,
+                0,
+                0,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 36,
+            "names": [
+                "Obscurecimento da luz."
+            ],
+            "chineseName": "明夷",
+            "pinyinName": "míng yí",
+            "character": "䷣",
+            "topTrigram": 2,
+            "bottomTrigram": 7,
+            "binary": "000101",
+            "lines": [
+                1,
+                0,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 37,
+            "names": [
+                "A Família(clan)",
+                "A perseverança da mulher é favorável."
+            ],
+            "chineseName": "家人",
+            "pinyinName": "jiā rén",
+            "character": "䷤",
+            "topTrigram": 6,
+            "bottomTrigram": 7,
+            "binary": "110101",
+            "lines": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 38,
+            "names": [
+                "Divergência",
+                "Boa sorte em pequenas coisas."
+            ],
+            "chineseName": "睽",
+            "pinyinName": "kuí",
+            "character": "䷥",
+            "topTrigram": 7,
+            "bottomTrigram": 8,
+            "binary": "101011",
+            "lines": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 39,
+            "names": [
+                "Dificuldades",
+                "O oeste e o sul são favoráveis, mas não o leste e o norte. É aconselhável encontrar o grande homem.",
+                "A persistência no curso correto traz boa sorte."
+            ],
+            "chineseName": "蹇",
+            "pinyinName": "jiǎn",
+            "character": "䷦",
+            "topTrigram": 4,
+            "bottomTrigram": 5,
+            "binary": "010100",
+            "lines": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 40,
+            "names": [
+                "Liberação",
+                "O oeste e o sul são favoráveis.",
+                "Quando não se tem mais aonde ir,",
+                "o regresso traz boa sorte.",
+                "Se há alguma coisa por fazer,",
+                "apressar-se traz boa fortuna."
+            ],
+            "chineseName": "解",
+            "pinyinName": "xiè",
+            "character": "䷧",
+            "topTrigram": 3,
+            "bottomTrigram": 4,
+            "binary": "001010",
+            "lines": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 41,
+            "names": [
+                "Diminuição",
+                "É favorável ter um objetivo ou meta ideal.",
+                "Mas como?",
+                "Duas pequenas tigelas são suficientes para o sacrifício."
+            ],
+            "chineseName": "損",
+            "pinyinName": "sǔn",
+            "character": "䷨",
+            "topTrigram": 5,
+            "bottomTrigram": 8,
+            "binary": "100011",
+            "lines": [
+                1,
+                1,
+                0,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 42,
+            "names": [
+                "Aumento",
+                "É vantajoso atravessar o grande rio."
+            ],
+            "chineseName": "益",
+            "pinyinName": "yì",
+            "character": "䷩",
+            "topTrigram": 6,
+            "bottomTrigram": 3,
+            "binary": "110001",
+            "lines": [
+                1,
+                0,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 43,
+            "names": [
+                "Determinação",
+                "Ao fazer uma proclamação na côrte real,",
+                "a sinceridade envolve perigo.",
+                "Ao notificar sua própria cidade,",
+                "não é favorável recorrer às armas."
+            ],
+            "chineseName": "夬",
+            "pinyinName": "guài",
+            "character": "䷪",
+            "topTrigram": 8,
+            "bottomTrigram": 1,
+            "binary": "011111",
+            "lines": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 44,
+            "names": [
+                "O Encontro",
+                "A moça é forte e poderosa.",
+                "Não agir impulsivamente. Casar-se."
+            ],
+            "chineseName": "姤",
+            "pinyinName": "gòu",
+            "character": "䷫",
+            "topTrigram": 1,
+            "bottomTrigram": 6,
+            "binary": "111110",
+            "lines": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 45,
+            "names": [
+                "Reunião",
+                "O rei se aproxima do templo.",
+                "É aconselhável encontrar o grande homem. Isso assegura o sucesso.",
+                "Grandes sacrifícios são oferecidos."
+            ],
+            "chineseName": "萃",
+            "pinyinName": "cuì",
+            "character": "䷬",
+            "topTrigram": 8,
+            "bottomTrigram": 2,
+            "binary": "011000",
+            "lines": [
+                0,
+                0,
+                0,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 46,
+            "names": [
+                "Crescimento ascendente",
+                "É essencial encontrar o grande homem para afastar a ansiedade.",
+                "Progredir para o sul traz boa sorte."
+            ],
+            "chineseName": "升",
+            "pinyinName": "shēng",
+            "character": "䷭",
+            "topTrigram": 2,
+            "bottomTrigram": 6,
+            "binary": "000110",
+            "lines": [
+                0,
+                1,
+                1,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 47,
+            "names": [
+                "Esgotamento",
+                "Para o verdadeiramente grande, boa sorte e ausência de erro.",
+                "Ele tem algo a dizer, mas não é ouvido."
+            ],
+            "chineseName": "困",
+            "pinyinName": "kùn",
+            "character": "䷮",
+            "topTrigram": 8,
+            "bottomTrigram": 4,
+            "binary": "011010",
+            "lines": [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 48,
+            "names": [
+                "O Poço",
+                "Pode-se mudar uma cidade, mas não um poço.",
+                "O poço não aumenta nem diminui.",
+                "As pessoas vão e vêm e recolhem a água.",
+                "Se antes de a corda alcançar a água, o cântaro se quebra,",
+                "isso traz infortúnio."
+            ],
+            "chineseName": "井",
+            "pinyinName": "jǐng",
+            "character": "䷯",
+            "topTrigram": 4,
+            "bottomTrigram": 6,
+            "binary": "010110",
+            "lines": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 49,
+            "names": [
+                "Revolução",
+                "Ela só terá crédito quando for completada.",
+                "A determinação no rumo correto traz recompensas.",
+                "Os motivos para arrependimento desaparecem."
+            ],
+            "chineseName": "革",
+            "pinyinName": "gé",
+            "character": "䷰",
+            "topTrigram": 8,
+            "bottomTrigram": 7,
+            "binary": "011101",
+            "lines": [
+                1,
+                0,
+                1,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 50,
+            "names": [
+                "O Caldeirão",
+                "Grande progresso.",
+                "Sucesso supremo."
+            ],
+            "chineseName": "鼎",
+            "pinyinName": "dǐng",
+            "character": "䷱",
+            "topTrigram": 7,
+            "bottomTrigram": 6,
+            "binary": "101110",
+            "lines": [
+                0,
+                1,
+                1,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 51,
+            "names": [
+                "Trovão (Comoção, Abalo)",
+                "A comoção chega com uma alegria assustadora.",
+                "Seu estrondo aterroriza as pessoas num raio de cem léguas,",
+                "mas ele não derrama o vinho da taça de sacrifícios."
+            ],
+            "chineseName": "震",
+            "pinyinName": "zhèn",
+            "character": "䷲",
+            "topTrigram": 3,
+            "bottomTrigram": 3,
+            "binary": "001001",
+            "lines": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 52,
+            "names": [
+                "Quietude",
+                "Manter as costas retas e recolher-se,",
+                "caminhar pelo pátio e não ver ninguém – nenhum erro!"
+            ],
+            "chineseName": "艮",
+            "pinyinName": "gèn",
+            "character": "䷳",
+            "topTrigram": 5,
+            "bottomTrigram": 5,
+            "binary": "100100",
+            "lines": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 53,
+            "names": [
+                "Progresso gradual",
+                "O casamento da jovem traz boa fortuna.",
+                "A persistência no curso correto traz recompensa."
+            ],
+            "chineseName": "漸",
+            "pinyinName": "jiàn",
+            "character": "䷴",
+            "topTrigram": 6,
+            "bottomTrigram": 5,
+            "binary": "110100",
+            "lines": [
+                0,
+                0,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 54,
+            "names": [
+                "O Casamento da Jovem",
+                "Avançar traz infortúnios.",
+                "Nenhuma ação ou objetivo é favorável."
+            ],
+            "chineseName": "歸妹",
+            "pinyinName": "guī mèi",
+            "character": "䷵",
+            "topTrigram": 3,
+            "bottomTrigram": 8,
+            "binary": "001011",
+            "lines": [
+                1,
+                1,
+                0,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 55,
+            "names": [
+                "Abundância",
+                "O rei atinge a plenitude.",
+                "Não fique triste; seja como o sol ao meio-dia."
+            ],
+            "chineseName": "豐",
+            "pinyinName": "fēng",
+            "character": "䷶",
+            "topTrigram": 3,
+            "bottomTrigram": 7,
+            "binary": "001101",
+            "lines": [
+                1,
+                0,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 56,
+            "names": [
+                "O Viajante",
+                "Persistência e correção trazem boa sorte ao viajante."
+            ],
+            "chineseName": "旅",
+            "pinyinName": "lǚ",
+            "character": "䷷",
+            "topTrigram": 7,
+            "bottomTrigram": 5,
+            "binary": "101100",
+            "lines": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                1
+            ]
+        },
+        {
+            "number": 57,
+            "names": [
+                "Suavidade",
+                "É favorável ter um objetivo e procurar o grande homem."
+            ],
+            "chineseName": "巽",
+            "pinyinName": "xùn",
+            "character": "䷸",
+            "topTrigram": 6,
+            "bottomTrigram": 6,
+            "binary": "110110",
+            "lines": [
+                0,
+                1,
+                1,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 58,
+            "names": [
+                "Alegria",
+                "A perseverança no curso correto traz recompensas."
+            ],
+            "chineseName": "兌",
+            "pinyinName": "duì",
+            "character": "䷹",
+            "topTrigram": 8,
+            "bottomTrigram": 8,
+            "binary": "011011",
+            "lines": [
+                1,
+                1,
+                0,
+                1,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 59,
+            "names": [
+                "Desapego",
+                "O rei se aproxima do templo.",
+                "É favorável atravessar o grande rio.",
+                "A persistência no curso correto traz recompensas."
+            ],
+            "chineseName": "渙",
+            "pinyinName": "huàn",
+            "character": "䷺",
+            "topTrigram": 6,
+            "bottomTrigram": 4,
+            "binary": "110010",
+            "lines": [
+                0,
+                1,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 60,
+            "names": [
+                "Limitação",
+                "Não se deve persistir com normas severas ou exageradas."
+            ],
+            "chineseName": "節",
+            "pinyinName": "jié",
+            "character": "䷻",
+            "topTrigram": 4,
+            "bottomTrigram": 8,
+            "binary": "010011",
+            "lines": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 61,
+            "names": [
+                "Sinceridade",
+                "É favorável atravessar o grande rio.",
+                "A persistência na direção correta é vantajosa."
+            ],
+            "chineseName": "中孚",
+            "pinyinName": "zhōng fú",
+            "character": "䷼",
+            "topTrigram": 6,
+            "bottomTrigram": 8,
+            "binary": "110011",
+            "lines": [
+                1,
+                1,
+                0,
+                0,
+                1,
+                1
+            ]
+        },
+        {
+            "number": 62,
+            "names": [
+                "O Pequeno Excesso assegura progresso e realização.",
+                "Os pássaros que voam alto avisam:",
+                "é favorável descer, e não subir.",
+                "Haverá muito boa sorte."
+            ],
+            "chineseName": "小過",
+            "pinyinName": "xiǎo guò",
+            "character": "䷽",
+            "topTrigram": 3,
+            "bottomTrigram": 5,
+            "binary": "001100",
+            "lines": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "number": 63,
+            "names": [
+                "Após a Conclusão",
+                "A perseverança no curso correto traz recompensas.",
+                "Boa sorte no começo, desordem no final."
+            ],
+            "chineseName": "既濟",
+            "pinyinName": "jì jì",
+            "character": "䷾",
+            "topTrigram": 4,
+            "bottomTrigram": 7,
+            "binary": "010101",
+            "lines": [
+                1,
+                0,
+                1,
+                0,
+                1,
+                0
+            ]
+        },
+        {
+            "number": 64,
+            "names": [
+                "Antes da Conclusão",
+                "Se a raposa, quase ao completar a travessia, molha sua cauda na água, nada será favorável."
+            ],
+            "chineseName": "未濟",
+            "pinyinName": "wèi jì",
+            "character": "䷿",
+            "topTrigram": 7,
+            "bottomTrigram": 4,
+            "binary": "101010",
+            "lines": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ]
+        }
+    ]
+}

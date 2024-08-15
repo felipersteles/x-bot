@@ -1,1 +1,4 @@
-console.log("hello world!");
+import { Server } from "./server";
+
+const server = new Server();
+server.start();

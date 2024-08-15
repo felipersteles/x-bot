@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { TwitterService } from "../../app/oracle";
+import { TwitterService } from "../../app/twitter";
 
 const router = Router();
 
@@ -8,8 +8,9 @@ router.post('/api/send-tweet', async (req, res) => {
         const service = new TwitterService();
         
         const response = await service.tweet(req.body.message)
-        console.log(response);
 
+        console.log("Messagem do dia enviada: ");
+        console.log(response);
         res.status(201).json({ message: "Tweet sent successfully" });
     } catch (error) {
         console.log(error);
