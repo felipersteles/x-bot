@@ -67,7 +67,6 @@ export class TwitterService {
     private async tweetRandomPhrase() {
 
         const authors = [
-            "desconhecido",
             "alexandre_dumas",
             "karl marx",
             "clarice lispector",
@@ -75,15 +74,17 @@ export class TwitterService {
             "hilda hist",
             "proverbio",
             "julio_cesar",
-            "marcel_proust",
+            "Fiodor_Dostoievski",
             "william_shakespeare",
             "frank_herbert",
             "joan_D_arc",
             "antonio_manuel_de_la_pensa",
             "henry_ford",
             "leonardo_da_vinci",
-            "michellangelo",
-            "papa"
+            "plato",
+            "socrates",
+            "paulo_coelho",
+            "chico_science"
         ]
         const randomIndex = Math.floor(Math.random() * authors.length);
 
