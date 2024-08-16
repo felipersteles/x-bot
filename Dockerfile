@@ -25,5 +25,5 @@ COPY --from=build /app/node_modules /app/node_modules
 EXPOSE 3333
 
 ENTRYPOINT [ "node" ]
-CMD ["dist/server/app.js"]
+CMD ["dist/src/index.js"]
 

@@ -26,7 +26,6 @@ export class Server {
             console.log("Server running on port " + PORT)
 
             this.twitter.dailyTweet();
-        }
-        );
+        });
     }
 }
