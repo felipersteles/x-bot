@@ -2,6 +2,7 @@ import cron from 'node-cron';
 import pensador from 'pensador-promise';
 import { TwitterApi, TwitterApiv2 } from 'twitter-api-v2';
 import { Oracle } from './oracle';
+import { cutString } from '../utils';
 
 export class TwitterService {
 
@@ -22,16 +23,20 @@ export class TwitterService {
         this.oracle = new Oracle()
     }
 
-    async tweet(message: string) {
+    private async tweet(message: string) {
 
         if (!message) throw new Error(`Missing param: message.`);
+        try {
 
-        const res = await this.client.tweet({
-            text: message,
-        });
+            const res = await this.client.tweet({
+                text: message,
+            });
 
-
-        return res;
+            return res;
+        } catch (error) {
+            console.log(error);
+            return null;
+        }
     }
 
 
@@ -59,26 +64,50 @@ export class TwitterService {
         }
     }
 
-    private async getRandomPhrase() {
+    private async tweetRandomPhrase() {
 
         const authors = [
-            "Albert Einstein",
-            "julio_cesar",
+            "desconhecido",
             "alexandre_dumas",
             "karl marx",
             "clarice lispector",
+            "Albert Einstein",
             "hilda hist",
-            "proverbio"
+            "proverbio",
+            "julio_cesar",
+            "marcel_proust",
+            "william_shakespeare",
+            "frank_herbert",
+            "joan_D_arc",
+            "antonio_manuel_de_la_pensa",
+            "henry_ford",
+            "leonardo_da_vinci",
+            "michellangelo",
+            "papa"
         ]
         const randomIndex = Math.floor(Math.random() * authors.length);
 
-        const phrase = await pensador(
-            {
-                term: authors[randomIndex],
-                max: 100
-            });
+        const url = `https://pensador-api.vercel.app/?term=${authors[randomIndex]}&max=100`;
+        try {
 
-        return (phrase);
+            const req = await fetch(url);
+            const data = await req.json();
+            console.log("[INFO]: fetching in url", url)
+
+            const randomPhrase = Math.floor(Math.random() * data.frases.length);
+
+            const phrase = data.frases[randomPhrase];
+            const { autor, texto } = phrase;
+
+            const message = cutString(`${(texto)}${autor}`);
+            const tweet = this.tweet(message);
+
+            return { message, tweet }
+        } catch (error) {
+            console.log(error);
+            return null;
+        }
+
     }
 
     async dailyTweet() {
@@ -99,5 +128,17 @@ export class TwitterService {
         });
 
 
+        cron.schedule('00 11 * * *', async () => {
+            try {
+                const res = await this.tweetRandomPhrase();
+
+                console.log("[INFO]: Mensagem do dia enviada: ");
+                console.log(res?.message);
+                return res;
+            } catch (error) {
+                console.error(error);
+                return null;
+            }
+        });
     }
 }

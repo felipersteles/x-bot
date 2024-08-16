@@ -5,3 +5,7 @@ export function formatDate(date: Date) {
 
     return `${day}/${month}/${year}`;
 }
+
+export function cutString(text: string, limit: number = 280) {
+    return text.length > 200 ? text.substring(0, limit) : text;
+}

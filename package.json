@@ -6,8 +6,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "node -r dotenv/config ./dist/app.js",
-    "dev": "nodemon -r dotenv/config ./src/index.ts"
+    "start": "node -r dotenv/config ./dist/src/index.js",
+    "dev": "nodemon -r dotenv/config ./src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^16.4.5",

@@ -18,7 +18,7 @@ export class Server {
     start() {
         this.app.use(express.json())
         this.app.use(express.urlencoded({ extended: true }))
-        // this.app.use(router);
+        this.app.use(router);
 
         const PORT = process.env.PORT || 3333;
 
