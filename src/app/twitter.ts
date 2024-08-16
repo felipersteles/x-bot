@@ -112,7 +112,7 @@ export class TwitterService {
     }
 
     async dailyTweet() {
-        cron.schedule('52 7 * * *', async () => {
+        cron.schedule('00 18 * * *', async () => {
             try {
                 const reveal = this.oracle.getReveal();
                 const res = await this.client.tweet({
@@ -129,7 +129,7 @@ export class TwitterService {
         });
 
 
-        cron.schedule('00 11 * * *', async () => {
+        cron.schedule('00 12 * * *', async () => {
             try {
                 const res = await this.tweetRandomPhrase();
 
