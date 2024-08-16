@@ -14,7 +14,9 @@
     "express": "^4.19.2",
     "i-ching": "^0.3.5",
     "lodash": "^4.17.21",
+    "node-cron": "^3.0.3",
     "nodemon": "^3.1.4",
+    "pensador-promise": "^0.3.5",
     "ts-node": "^10.9.2",
     "twitter-api-v2": "^1.17.2"
   },
@@ -22,6 +24,7 @@
     "@types/express": "^4.17.21",
     "@types/lodash": "^4.17.7",
     "@types/node": "^22.3.0",
+    "@types/node-cron": "^3.0.11",
     "typescript": "^5.5.4"
   }
 }

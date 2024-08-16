@@ -14,6 +14,8 @@ export class Oracle {
     }
 
     ask(message: string) {
+
+
         // const trigrams = this.extractTrigrams(message);
         // const sequence = this.findMatchingSequence(trigrams);
 
@@ -39,7 +41,7 @@ export class Oracle {
         const topTrigram = this.getTrigram(dayReveal.topTrigram);
         const bottomTrigram = this.getTrigram(dayReveal.bottomTrigram);
 
-        let message = `${dayReveal.character} ${topTrigram.images[0] || ""}, ${bottomTrigram.images[0] || ""}.\n${dayReveal.chineseName} `;
+        let message = `${dayReveal.character} ${topTrigram ? topTrigram.images[0] : ""}, ${bottomTrigram ? bottomTrigram.images[0] : ""}.\n${dayReveal.chineseName} `;
 
         if (dayReveal.names.length > 1) {
             const header = dayReveal.names.shift();
